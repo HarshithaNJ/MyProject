@@ -1,0 +1,37 @@
+{
+    "name": "Annotations",
+    "securityToken": "Annotations Token",
+    "sourceConnection": {
+        "name": "TrainYourOwnYOLO/Data/Source_Images/Training_Images ",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiY2U0ZDI5ZDY0MWZlODJiMjJlYmYwNjI0ZWNjYjVlYThhYzRmNmEyOTY2ODJkMDZiYzNkMmJhNWRhMGQyZWRmY2RhNjJkMGM1ZjA5MzNiM2I1YTE0M2RiMWFhMDAxYmRmYmU2ODBkMTIyZTczNGE3OWE5Y2U0YzRlN2RhMzI3MjBmMGQzMWEzNDlmODg4OGI1OTc0NTE4OWZjMDY2ZGEyMzgzZTcyOGI2MzJmZjk4MmUxNWMwYjYzMjIwY2FhNWFhIiwiaXYiOiI2MWNiNWRhZWMyOGE5ZDBjYTM0YWQxYzU1YzAwMmUwNTkyNGIwODZlMzM1M2ZkY2EifQ=="
+        },
+        "id": "t8keUp3SJ"
+    },
+    "targetConnection": {
+        "name": "TrainYourOwnYOLO/Data/Source_Images/Training_Images ",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZWRmN2E5Y2JiMzQ5Mjk4NjcxYzg1YzUzZmQ0YmMzYjMzODg4ZmRiNWYzYWI4MjZiNzAyNjJiMjY0YTJkM2Q4MDE0NGRmNTM3YzlhZGUzZjgxYzY5NzFmOGY2YjA1YzZjYmIyNGI5NjI0NzY2NTYyYjRkMzdkNTUwNjA2ZWJjNjAyMzhjODU4ODQ1ZWNkNjM3ODllMTJkNDM0YWRmODk5NmJkYzlhZmIyMTA3ODc2M2YyOGU1MWRlYmQ1Y2MwOGI1IiwiaXYiOiIzNWYxYjZlYWI5ZjFmNmVhYjBmZTE1ZThiZDRmOWI2NDk4NzM0ZGNhMzQ4YjI4YTIifQ=="
+        },
+        "id": "UKwdkT1n4"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [],
+    "id": "-IDidUezY",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMTI1NjM3ZmNkOTYwYWYxZjc0NmI0ZWFjOWE3Mzg3OWU3YWYyODMyMTMyYTc2Yzk5YWFiMDAxOWRhZGVkMjE1MTFlMjc4YzdmNDdjY2IzZGNkNTYyYzI3ZDFjMGUzMjcyIiwiaXYiOiI5ZmI2YWU1Nzk3NDRkYWQxYTYxNTFiOTc3MDM1ZDE5NjZmZjlmZTVmOWY3MzNhOGMifQ=="
+        }
+    },
+    "version": "2.2.0"
+}
